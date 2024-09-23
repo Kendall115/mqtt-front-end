@@ -22,6 +22,12 @@ cd mqtt-front-end
 npm install
 ```
 
+4. Usage
+
+```javascript
+npm run dev
+```
+
 ## Configuration
 
 Before running the application, configure the socket.js or use default config in src/socket.js
