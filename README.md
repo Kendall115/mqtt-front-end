@@ -1,8 +1,35 @@
-# React + Vite
+# MQTT Sensors Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a real-time dashboard built with React, NodeJS and Python that visualizes data from MQTT sensors. It simulates various sensor readings.
 
-Currently, two official plugins are available:
+### Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Kendall115/mqtt-front-end.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd mqtt-front-end
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+## Configuration
+
+Before running the application, configure the socket.js or use default config in src/socket.js
+
+```javascript
+import { io } from "socket.io-client";
+
+const URL = "http://localhost:3000";
+
+export const socket = io(URL);
+```
