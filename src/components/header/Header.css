@@ -1,0 +1,14 @@
+header {
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+  padding: 1%;
+  font-size: 1.2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,15 @@
+.sensor-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.sensor-dot.connected {
+  background-color: #81c784; /* Lighter green */
+}
+
+.sensor-dot.disconnected {
+  background-color: #ef5350; /* Lighter red */
+}

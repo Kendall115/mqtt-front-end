@@ -1,0 +1,32 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(244, 244, 244);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  height: 100vh;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 1%;
+  padding: 10px;
+  overflow: hidden;
+}
